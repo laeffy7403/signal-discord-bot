@@ -25,7 +25,7 @@ client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
   
   const channelId = '1380085584394981428';
-  const interval = 25 * 1000; // 25 sec in milliseconds
+  const interval = 30 * 1000; // 25 sec in milliseconds
   
   setInterval(() => {
     const channel = client.channels.cache.get(channelId);
